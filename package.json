@@ -1,0 +1,17 @@
+{
+  "name": "chromeextensions",
+  "version": "1.0.0",
+  "description": "A multi-project workspace for chrome extensions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "T Motsoeneng",
+  "license": "ISC",
+  "workspaces": [
+    "packages/HateAds"
+  ],
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
